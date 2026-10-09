@@ -14,3 +14,20 @@
 // }
 // int averageGrade = count / grades.Length;
 // System.Console.WriteLine(averageGrade);
+
+// string[] students = { "Аня", "Ярослав", "Вика" };
+// int count = 0;
+
+// foreach (string student in students) {
+//     System.Console.WriteLine(student);
+//     count++;
+// }
+// System.Console.WriteLine(count);
+
+// int[] points = { 10, 20, 15 };
+
+// for (int i = 0; i < points.Length; i++) {
+//     points[i] += 5;
+//     System.Console.WriteLine(points[i]);
+// }
+
