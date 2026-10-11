@@ -72,25 +72,25 @@
 // .ToList();
 // Console.WriteLine($"Задачи: №{assigned[0]} и №{assigned[1]}");
 
-// System.Console.WriteLine("Вариант 1");
+System.Console.WriteLine("Вариант 1");
 
-// int[] temperatures = { 8, 4, 10, 7, 18, 17, 3 };
-// int count = 0;
+int[] temperatures = { 8, 4, 10, 7, 18, 17, 3 };
+int count = 0;
 
-// foreach (int temperature in temperatures) {
-//     count += temperature;
-// }
-// int averageTemperature = count / temperatures.Length;
-// System.Console.WriteLine($"Средняя температура за неделю: {averageTemperature}");
+foreach (int temperature in temperatures) {
+    count += temperature;
+}
+int averageTemperature = count / temperatures.Length;
+System.Console.WriteLine($"Средняя температура за неделю: {averageTemperature}");
 
-// System.Console.WriteLine("Вариант 10");
+System.Console.WriteLine("Вариант 10");
 
-// string[] days = { "Суббота", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье" };
-// int countWeekend = 0;
+string[] days = { "Суббота", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье" };
+int countWeekend = 0;
 
-// foreach (string day in days) {
-//     if (day == "Суббота" || day == "Воскресенье") {
-//         countWeekend++;
-//     }
-// }
-// System.Console.WriteLine(countWeekend);
+foreach (string day in days) {
+    if (day == "Суббота" || day == "Воскресенье") {
+        countWeekend++;
+    }
+}
+System.Console.WriteLine(countWeekend);
